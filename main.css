@@ -1,0 +1,80 @@
+#mainPage {
+    background-image: url('Images/tealStripe.jpg');
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#dogPage {
+    background-image: url('Images/tealGeo.jpg');
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    width: 500px;
+    background-color: teal;
+    margin: 0 auto;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+nav ul{
+    text-align: center;
+}
+nav li{
+    list-style-type: none;
+    display: inline-block;
+    font-size: 25px;
+    padding: 10px;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    
+}
+.header{
+    border-bottom: 2px solid rgb(123, 30, 47);
+    padding-bottom: 20px;
+}
+
+p{
+    font-size: 30px;
+}
+.listing {
+    background-color: rgba(245, 178, 39, 0.36);
+    padding: 10px;    
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 80%;
+    margin: 30px auto;
+    border-radius: 10px;
+}
+
+.listing p{
+    display: inline;
+    float: right;
+    width: 500px;
+    background-color: #ffefe0;
+    margin-right: 30px;
+    padding: 70px;
+    text-align: center;
+    border-radius: 40%;
+}
+
+.listing img {
+    margin-left: 30px;
+    border-radius: 20px;
+}
+
+.blurb{
+    background-color: #ffefe0;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    margin: 30px auto;
+    border: 3px solid rgb(94, 85, 77);
+}
+.centerImg{
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+}
